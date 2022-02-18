@@ -1,0 +1,19 @@
+{
+  "name": "razzle-examples-basic-spa",
+  "version": "3.4.5",
+  "license": "MIT",
+  "scripts": {
+    "start": "razzle start --type=spa",
+    "build": "razzle build --type=spa",
+    "test": "razzle test --env=jsdom",
+    "start:prod": "serve -s build/public"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "razzle": "3.4.5",
+    "serve": "^11.3.0"
+  }
+}
